@@ -1,5 +1,7 @@
 ## Pixion
 
+Uses [Herd](https://herd.laravel.com/docs/1/getting-started/paths) for serving sites
+
 Create env file with a copy of env.example
 ```bash
 mv .env.example .env
