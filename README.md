@@ -1,8 +1,8 @@
 ## Pixion
 
-Install composer dependencies:
+Create env file with a copy of env.example
 ```bash
-composer install
+mv .env.example .env
 ```
 
 Install node dependencies:
@@ -10,7 +10,18 @@ Install node dependencies:
 npm install
 ```
 
-Run laravel app:
+Install composer dependencies:
+```bash
+composer install
+```
+
+Run migrations and seeders:
+```bash
+php artisan migrate --seed
+
+```
+
+Run laravel app (Optional):
 ```bash
 php artisan serve
 ```
